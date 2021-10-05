@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Eugene J. Ciervo">
+    <title>Biometrics | August</title>
+    <link rel="stylesheet" href="../css/style_biometrics_main_months.css">
+    <link rel="stylesheet" href="../css/countdown.css">
+    <link rel="stylesheet" href="../css/display_settings.css">
+    <script src="../js/countdown.js"></script>
+    <script src="../js/jquery.min360.js"></script>
+    <script src="../js/table_script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <!-- id="branding" to id="institution -->
+            <div id="institution">
+                <h1><span class="highlight">San Marcelino</span> District Hospital</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="current"><a href="../links/january2021.html">Biometrics</a></li>
+                    <li><a href="../links/directory.html">Directory</a></li>
+                    <li><a href="../links/about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="links">
+        <div class="container">
+            <div id="month_links">
+                <h3>Links:</h3>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="../links/january2021.html">January</a></li>
+                    <li><a href="../links/february2021.html">February</a></li>
+                    <li><a href="../links/march2021.html">March</a></li>
+                    <li><a href="../links/april2021.html">April</a></li>
+                    <li><a href="../links/may2021.html">May</a></li>
+                    <li><a href="../links/june2021.html">June</a></li>
+                    <li><a href="../links/july2021.html">July</a></li>
+                    <li><a href="../links/august2021.html">August</a></li>
+                    <li class="current"><a href="../links/september2021.html">September</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- id="newsletter to id="search_area" -->
+    <section id="search_area">
+        <div class="container">
+            <!-- id="myInput" to id="mySearch" -->
+            <input id="mySearch" type="text" placeholder="Enter your search here (e.g. dela cruz, juan)...">
+        </div>
+    </section>
+
+
+    <div class="countdown-container">
+        <h1 id="headline">Biometrics for September 01 to 15, 2021 will be available in:</h1>
+        <div id="countdown">
+            <ul>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <li><span id="seconds"></span>Seconds</li>
+            </ul>
+        </div>
+    </div>
+
+<footer>
+        <p><span class="highlight">San Marcelino</span> District Hospital | eugenejciervo | &copy;2021</p>
+    </footer>
+
+</body>
+
+</html>

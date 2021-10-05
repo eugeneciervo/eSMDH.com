@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Eugene J. Ciervo">
+    <title>SMDH | Directory</title>
+    <link rel="stylesheet" href="../css/directory.css">
+    <link rel="stylesheet" href="../css/display_settings.css">
+    <script src="../js/directory_search.js"></script>
+    <script src="../js/jquery.min360.js"></script>
+    <script src="../js/table_script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <!-- id="branding" to id="institution -->
+            <div id="institution">
+                <h1><span class="highlight">San Marcelino</span> District Hospital</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../links/january2021.html">Biometrics</a></li>
+                    <li class="current"><a href="../links/directory.html">Directory</a></li>
+                    <li><a href="../links/about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- id="newsletter to id="search_area" -->
+    <section id="search_area">
+        <div class="container">
+            <!-- id="myInput" to id="mySearch" -->
+            <!--<input id="mySearch" type="text" placeholder="Enter your search here..."> -->
+            <input type="text" id="userSearch" onkeyup="searchResults()" placeholder="Type the name of the section here(e.g. administration)..." title="SectionSearch">
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Directory</h1>
+                <p class="sub">(Intercomm)</p>
+
+                <ul id="services">
+                    <li>
+                        <h3>ADMITTING</h3>
+                        <p>112</p>
+                    </li>
+                    <li>
+                        <h3>ANIMAL BITE</h3>
+                        <p>118</p>
+                    </li>
+                    <li>
+                        <h3>CHIEF OF HOSPITAL</h3>
+                        <p>102</p>
+                    </li>
+                    <li>
+                        <h3>CHIEF NURSE</h3>
+                        <p>129</p>
+                    </li>
+                    <li>
+                        <h3>CONSULTATION (OPD)</h3>
+                        <p>119</p>
+                    </li>
+                    <li>
+                        <h3>CENTRAL SUPPLY ROOM</h3>
+                        <p>127</p>
+                    </li>
+                    <li>
+                        <h3>INFORMATION</h3>
+                        <p>113</p>
+                    </li>
+                    <li>
+                        <h3>CHIEF DOCTOR'S ROOM</h3>
+                        <td>138</td>
+                    </li>
+                    <li>
+                        <h3>DENTAL</h3>
+                        <p>120</p>
+                    </li>
+                    <li>
+                        <h3>DOCTORS' QUARTERS</h3>
+                        <p>137</p>
+                    </li>
+                    <li>
+                        <h3>KITCHEN / DIETARY</h3>
+                        <p>130</p>
+                    </li>
+                    <li>
+                        <h3>EMERGENCY ROOM</h3>
+                        <p>111</p>
+                    </li>
+                    <li>
+                        <h3>FAMILYPLANNING</h3>
+                        <p>144</p>
+                    </li>
+                    <li>
+                        <h3>GOVERNOR'S MALASAKIT CENTER</h3>
+                        <p>109</p>
+                    </li>
+                    <li>
+                        <h3>TRANSPORTATION</h3>
+                        <p>142</p>
+                    </li>
+                    <li>
+                        <h3>LABORATORY</h3>
+                        <p>117</p>
+                    </li>
+                    <li>
+                        <h3>LAUNDRY</h3>
+                        <p>141</p>
+                    </li>
+                    <li>
+                        <h3>MEDICAL WARD</h3>
+                        <p>125</p>
+                    </li>
+                    <li>
+                        <h3>MEDICAL RECORDS</h3>
+                        <p>128</p>
+                    </li>
+                    <li>
+                        <h3>MAINTENANCE</h3>
+                        <p>132</p>
+                    </li>
+                    <li>
+                        <h3>DSWD</h3>
+                        <p>135</p>
+                    </li>
+                    <li>
+                        <h3>NEWBORN SCREENING</h3>
+                        <p>122</p>
+                    </li>
+                    <li>
+                        <h3>SURGERY (OPD)</h3>
+                        <p>121</p>
+                    </li>
+                    <li>
+                        <h3>OPERATING ROOM / DELIVERY ROOM</h3>
+                        <p>126</p>
+                    </li>
+                    <li>
+                        <h3>PHARMACY</h3>
+                        <p>110</p>
+                    </li>
+                    <li>
+                        <h3>PHILHEALTH</h3>
+                        <p>114</p>
+                    </li>
+                    <li>
+                        <h3>SURGERY WARD</h3>
+                        <p>124</p>
+                    </li>
+                    <li>
+                        <h3>SECURITY</h3>
+                        <p>136</p>
+                    </li>
+                    <li>
+                        <h3>PROPERTY AND SUPPLY</h3>
+                        <p>104</p>
+                    </li>
+                    <li>
+                        <h3>RADIOLOGY</h3>
+                        <p>116</p>
+                    </li>
+                    <li>
+                        <h3>OB / PRIVATE ROOM</h3>
+                        <p>123</p>
+                    </li>
+                    <li>
+                        <h3>UNDER FIVE</h3>
+                        <p>145</p>
+                    </li>
+                </ul>
+            </article>
+
+            <aside id="sidebar">
+                <div class="teamwork">
+                    <img src="../images/teamwork.png">
+                    <h1><span id="colorteamwork">T</span>EAMWORK</h1>
+                    <hr>
+                    <p>We depend on each other to get the job done, and others can count on us.</p>
+                </div>
+                                
+                <div class="respect">
+                    <img src="../images/respect.png">
+                    <h1><span id="colorrespect">R</span>ESPECT</h1>
+                    <hr>
+                    <p>We value the contributions, views and interests of others, and treat all with dignity.</p>
+                </div>
+                                                
+                <div class="integrity">
+                    <img src="../images/integrity.png">
+                    <h1><span id="colorintegrity">I</span>NTEGRITY</h1>
+                    <hr>
+                    <p>We do the right thing, always.</p>
+                </div>
+                                                
+                <div class="compassion">
+                    <img src="../images/compassion.png">
+                    <h1><span id="colorcompassion">C</span>OMPASSION</h1>
+                    <hr>
+                    <p>We understand what our patients and their loved ones are going through; we will do all we can to help them.</p>
+                </div>
+                                                
+                <div class="excellence">
+                    <img src="../images/excellence.png">
+                    <h1><span id="colorexcellence">E</span>XCELLENCE</h1>
+                    <hr>
+                    <p>We pursue the highest standards in all that we do, we continually learn and innovate for better outcomes.</p>
+                </div>
+                                                
+                <div class="patient_centered">
+                    <img src="../images/patient_centered.png">
+                    <h1><span id="colorpatient_centered">P</span>ATIENT-CENTEREDNESS</h1>
+                    <hr>
+                    <p>We design and deliver care around the needs of our patients and their caregivers.</p>
+                </div>
+                                                
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p><span class="highlight">San Marcelino</span> District Hospital | eugenejciervo | &copy;2021</p>
+    </footer>
+
+</body></html>

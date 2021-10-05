@@ -1,0 +1,24 @@
+<!-- id="main" to id="main_table" -->
+    <section id="main_table">
+        <div class="table-container">
+            <h1 class="heading">September</h1>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th colspan="7">Attendance</th>
+                    </tr>
+                </thead>
+
+                <!-- id="myTable" to id="smdh_table" -->
+                <tbody id="smdh_table">
+
+
+</tbody>
+            </table>
+
+        </div>
+    </section>

@@ -1,0 +1,47 @@
+.countdown-container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.countdown-container h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+.countdown-container li {
+    /*color: #ff0000;*/
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.countdown-container li span {
+    color: #ff0000;
+    display: block;
+    font-size: 4.5rem;
+}
+
+.countdown-container #content {
+    animation: red-white 1s infinite;
+}
+
+.biometrics {
+    display: none;
+    padding: 1rem;
+}
+
+.biometrics span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+@keyframes red-white {
+    from {color: #ff0000;}
+    to {color: #ffffff;}
+}
+
+
